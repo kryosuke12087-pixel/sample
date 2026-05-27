@@ -45,17 +45,8 @@ a {
   margin-bottom: 20px;
 }
 
-.signup {
+.cta {
   background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
@@ -111,7 +102,7 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
+.service-wrapper {
   height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
@@ -130,16 +121,16 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.service {
   float: left;
   width: 25%;
 }
 
-.lesson-icon {
+.service-icon {
   position: relative;
 }
 
-.lesson-icon p {
+.service-icon p {
   position: absolute;
   top: 37%;
   width: 100%;
@@ -203,13 +194,39 @@ footer {
   clear: left;
 }
 
+/*strength*/
+.strength-wrapper {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.strength {
+  float: left;
+  width: 33%;
+}
+
+.service-icon {
+  position: relative;
+}
+
+.service-icon p {
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  color: white;
+}
+
 @media all and (max-width: 1000px) {
-  .lesson {
+  .service {
     width: 50%;
     margin-bottom: 50px;
   }
 
-  .lesson-wrapper {
+  .service-wrapper {
     height: 990px;
   }
 
