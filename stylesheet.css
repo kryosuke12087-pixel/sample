@@ -137,6 +137,11 @@ header {
   color: white;
 }
 
+.pc-icon{
+  max-width: 100%;
+  height: auto;
+}
+
 .text-contents {
   width: 80%;
   display: inline-block;
